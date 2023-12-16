@@ -1,4 +1,3 @@
-#!/bin/bash
 
 # Update the package list and upgrade packages
 sudo apt-get update
