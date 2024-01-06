@@ -10,7 +10,7 @@ sudo apt-get install -y gnupg curl
 # Add Webmin repository to sources.list
 curl -o setup-repos.sh https://raw.githubusercontent.com/webmin/webmin/master/setup-repos.sh
 echo "y" | sh setup-repos.sh
-sudo apt install webmin
+sudo apt install webmin -y
 
 # Add Webmin GPG key
 #wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add -
