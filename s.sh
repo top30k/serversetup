@@ -8,7 +8,7 @@ sudo apt-get upgrade -y
 sudo apt-get install -y gnupg curl
 
 # Add Webmin repository to sources.list
-echo "https://download.webmin.com/download/newkey/repository stable contrib" | sudo tee -a /etc/apt/sources.list
+echo "deb https://download.webmin.com/download/newkey/repository stable contrib" | sudo tee -a /etc/apt/sources.list
 
 # Add Webmin GPG key
 wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add -
